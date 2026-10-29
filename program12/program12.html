@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Paradise Resort</title>
+</head>
+
+<body>
+
+    <h1>Paradise Resort</h1>
+
+    <p>
+        Welcome to <b>Paradise Resort</b>, a beautiful holiday destination
+        located in the heart of <i>Kerala</i>. Our resort offers
+        <u>comfortable accommodation</u>, a refreshing swimming pool,
+        delicious dining, a relaxing spa, and modern conference facilities.
+        <strong>Paradise Resort</strong> is an ideal place for families,
+        couples, and business travelers. Come and enjoy an
+        <em>unforgettable vacation surrounded by nature and peace.</em>
+    </p>
+
+    <br>
+
+    <h3>About Our Resort</h3>
+    <p>
+        The resort is surrounded by beautiful greenery and is close to
+        popular tourist attractions. Guests can enjoy sightseeing,
+        delicious local cuisine, outdoor activities, and comfortable
+        rooms during their stay.
+    </p>
+
+    <hr>
+
+    <h2>Resort Image</h2>
+
+    <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945"
+         width="600"
+         height="350"
+         alt="Beautiful Paradise Resort">
+
+    <hr>
+
+    <h2>Resort Facilities</h2>
+
+    <ul>
+        <li>Swimming Pool</li>
+        <li>Restaurant</li>
+        <li>Free Wi-Fi</li>
+        <li>Spa</li>
+        <li>Conference Hall</li>
+        <li>Parking</li>
+    </ul>
+
+    <hr>
+    <h2>Room Details</h2>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Room Type</th>
+            <th>Capacity</th>
+            <th>Price per Night</th>
+            <th>Facilities</th>
+        </tr>
+
+        <tr>
+            <td>Deluxe Room</td>
+            <td>2 Persons</td>
+            <td>₹4000</td>
+            <td>AC, TV, Wi-Fi</td>
+        </tr>
+
+        <tr>
+            <td>Family Room</td>
+            <td>4 Persons</td>
+            <td>₹6500</td>
+            <td>AC, TV, Wi-Fi</td>
+        </tr>
+
+        <tr>
+            <td>Suite</td>
+            <td>2 Persons</td>
+            <td>₹8000</td>
+            <td>AC, TV, Mini Bar</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Useful Links -->
+    <h2>Useful Links</h2>
+
+    <ol>
+        <li>
+            <a href="index.html">Resort Home Page</a>
+        </li>
+
+        <li>
+            <a href="https://www.google.com/maps" target="_blank">
+                View Location
+            </a>
+        </li>
+
+        <li>
+            <a href="#booking">Contact Us</a>
+        </li>
+
+        <li>
+            <a href="https://www.booking.com" target="_blank">
+                Travel/Booking Website
+            </a>
+        </li>
+    </ol>
+
+    <hr>
+
+    <h2 id="booking">Resort Booking Form</h2>
+
+    <form action="#" method="post">
+
+        <label for="name">Guest Name:</label>
+        <input type="text">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email">        <br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel">
+        <br><br>
+
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" >
+        <br><br>
+
+        <label for="checkout">Check-out Date:</label>
+        <input type="date" required>
+        <br><br>
+
+        <label for="guests">Number of Guests:</label>
+        <input type="number">
+        <br><br>
+
+        <label for="room">Room Type:</label>
+        <select id="room">
+            <option value="deluxe">Deluxe Room</option>
+            <option value="family">Family Room</option>
+            <option value="suite">Suite</option>
+        </select>
+        <br><br>
+
+        <h3>Gender</h3>
+
+        <input type="radio">
+        <label for="male">Male</label>
+
+        <input type="radio">
+        <label for="female">Female</label>
+
+        <input type="radio">
+        <label for="other">Other</label>
+
+        <br><br>
+
+        <h3>Facilities Required</h3>
+
+        <input type="checkbox">
+        <label for="wifi">Free Wi-Fi</label>
+
+        <input type="checkbox">
+        <label for="spa">Spa</label>
+
+        <input type="checkbox">
+        <label for="pool">Swimming Pool</label>
+
+        <input type="checkbox" >
+        <label for="parking">Parking</label>
+
+        <br><br>
+
+        <label for="requests">Special Requests:</label>
+        <br>
+        <textarea id="requests"
+                  name="special_requests"
+                  rows="5"
+                  cols="50"
+                  placeholder="Enter any special requests here..."></textarea>
+
+        <br><br>
+
+        <label for="idproof">Upload ID Proof:</label>
+        <input type="file">
+
+        <br><br>
+
+        <button type="submit">Book Now</button>
+        <button type="reset">Reset</button>
+
+    </form>
+
+    <hr>
+
+    
+    <footer>
+        <p><strong>© 2026 Paradise Resort | All Rights Reserved</strong></p>
+    </footer>
+
+</body>
+</html>
+
+
